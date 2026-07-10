@@ -163,6 +163,17 @@ The primary objectives of Zero Trace Imperium are to:
 
 ---
 
+
+# Network Design
+
+<p align="center">
+<img src="assets/network-topology.png" alt="Network Topology">
+</p>
+
+The laboratory operates inside an isolated VMware NAT network. All virtual machines communicate exclusively within the virtual environment, ensuring safe and repeatable security assessments.
+
+---
+
 # Technology Stack
 
 ## Operating Systems
