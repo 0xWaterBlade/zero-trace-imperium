@@ -1,0 +1,76 @@
+# ==========================================================
+# Zero Trace Imperium
+# Git Ignore Rules
+# ==========================================================
+
+# Linux
+
+*.swp
+*.swo
+*~
+
+# Logs
+
+*.log
+
+logs/
+
+# Packet Captures
+
+*.pcap
+*.pcapng
+
+# Python
+
+__pycache__/
+*.py[cod]
+
+# PHP
+
+vendor/
+
+# Apache
+
+apache2.pid
+
+# VS Code
+
+.vscode/
+
+# JetBrains
+
+.idea/
+
+# Virtual Environment
+
+venv/
+.env
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Backup Files
+
+*.bak
+*.old
+*.orig
+
+# Temporary Files
+
+tmp/
+temp/
+
+# Secrets
+
+*.key
+*.pem
+*.crt
+*.pfx
+
+# Database
+
+*.db
+*.sqlite
+*.sqlite3
