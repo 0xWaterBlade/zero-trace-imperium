@@ -6,7 +6,7 @@
 
 ---
 
-<p align="center"> <img src="assets/banner.png" width="100%"> </p>
+<p align="center"> <img src="../assets/banner.png" width="100%"> </p>
 
 
 ---
@@ -166,7 +166,7 @@ Finally, we acknowledge the open-source cybersecurity community for developing a
 
 ---
 
-<p align="center"> <img src="assets/project-poster.png" width="90%"> </p>
+<p align="center"> <img src="../assets/project-poster.png" width="90%"> </p>
 
 **Figure 1.** Zero Trace Imperium Project Poster
 
@@ -199,7 +199,7 @@ The document is intended to function as both a graduation project report and a r
 
 ---
 
-![Project Banner](assets/banner.png)
+![Project Banner](../assets/banner.png)
 
 **Figure 1.1** Zero Trace Imperium Project Banner
 
@@ -368,7 +368,7 @@ These features make the laboratory suitable for both education and future resear
 
 The laboratory consists of three virtual machines connected through an isolated VMware NAT network.
 
-![Network Topology](assets/network-topology.png)
+![Network Topology](../assets/network-topology.png)
 
 **Figure 1.2** Laboratory Network Topology
 
@@ -388,7 +388,7 @@ The Ubuntu Server hosts the vulnerable web application together with the defensi
 
 The project follows a structured workflow inspired by enterprise security operations.
 
-![Workflow](assets/workflow.png)
+![Workflow](../assets/workflow.png)
 
 **Figure 1.3** Zero Trace Imperium Workflow
 
@@ -506,7 +506,7 @@ Each phase has clearly defined objectives, deliverables, and verification criter
 
 The phases are illustrated below.
 
-![Project Workflow](assets/workflow.png)
+![Project Workflow](../assets/workflow.png)
 
 **Figure 2.1** Zero Trace Imperium Development Workflow
 
@@ -779,7 +779,7 @@ The laboratory consists of three virtual machines connected through a VMware NAT
 
 The infrastructure separates attacker, target, and administrator roles to emulate real enterprise environments.
 
-![Enterprise Architecture](assets/architecture.png)
+![Enterprise Architecture](../assets/architecture.png)
 
 **Figure 3.1** Zero Trace Imperium Enterprise Architecture
 
@@ -827,7 +827,7 @@ This design provides:
 - Controlled communication
 - Safe testing environment
 
-![Network Topology](assets/network-topology.png)
+![Network Topology](../assets/network-topology.png)
 
 **Figure 3.2** Laboratory Network Topology
 
@@ -1097,7 +1097,7 @@ Advantages include:
 
 The VMware Virtual Network Editor was configured before deploying the virtual machines.
 
-![VMware Network Editor](screenshots/build/vmware-network-editor.png)
+![VMware Network Editor](../screenshots/build/vmware-network-editor.png)
 
 **Figure 4.1** VMware Virtual Network Editor Configuration
 
@@ -1107,7 +1107,7 @@ The VMware Virtual Network Editor was configured before deploying the virtual ma
 
 The laboratory consists of three interconnected virtual machines.
 
-![Network Topology](assets/network-topology.png)
+![Network Topology](../assets/network-topology.png)
 
 **Figure 4.2** Zero Trace Imperium Network Topology
 
@@ -1131,7 +1131,7 @@ The final addressing scheme remained unchanged throughout the project.
 
 ### Ubuntu Server
 
-![Ubuntu IP Address](screenshots/build/ubuntu-final-ip.png)
+![Ubuntu IP Address](../screenshots/build/ubuntu-final-ip.png)
 
 **Figure 4.3** Ubuntu Server Network Configuration
 
@@ -1139,7 +1139,7 @@ The final addressing scheme remained unchanged throughout the project.
 
 ### Kali Linux
 
-![Kali IP Address](screenshots/build/kali-final-ip.png)
+![Kali IP Address](../screenshots/build/kali-final-ip.png)
 
 **Figure 4.4** Kali Linux Network Configuration
 
@@ -1147,7 +1147,7 @@ The final addressing scheme remained unchanged throughout the project.
 
 ### Windows Client
 
-![Windows Client](screenshots/build/windows-final-ip.png)
+![Windows Client](../screenshots/build/windows-final-ip.png)
 
 **Figure 4.5** Windows Client Network Configuration
 
@@ -1170,7 +1170,7 @@ The following tests were performed.
 
 Successful responses confirmed that routing and addressing were functioning correctly.
 
-![Connectivity Test](screenshots/build/kali-connectivity-test.png)
+![Connectivity Test](../screenshots/build/kali-connectivity-test.png)
 
 **Figure 4.6** Connectivity Verification
 
@@ -1184,7 +1184,7 @@ The SSH service provides secure command-line access to the Ubuntu Server.
 
 Verification confirmed that the service started successfully and accepted authenticated connections.
 
-![SSH Running](screenshots/build/ssh-service-running.png)
+![SSH Running](../screenshots/build/ssh-service-running.png)
 
 **Figure 4.7** OpenSSH Service Status
 
@@ -1315,7 +1315,7 @@ Reliable network communication is essential for every stage of the laboratory.
 
 A static IP address was assigned during the installation process to prevent address changes between reboots.
 
-![Ubuntu Server IP Address](screenshots/build/ubuntu-ip-address.png)
+![Ubuntu Server IP Address](../screenshots/build/ubuntu-ip-address.png)
 
 **Figure 5.1** Ubuntu Server Static IP Configuration
 
@@ -1356,7 +1356,7 @@ The following components were installed.
 
 Together these technologies provide the execution environment required for DVWA.
 
-![LAMP Installation](screenshots/build/lamp-installation.png)
+![LAMP Installation](../screenshots/build/lamp-installation.png)
 
 **Figure 5.2** LAMP Stack Installation
 
@@ -1406,7 +1406,7 @@ Database initialization included:
 - Privilege assignment
 - Connection verification
 
-![DVWA Database Setup](screenshots/build/dvwa-database-setup.png)
+![DVWA Database Setup](../screenshots/build/dvwa-database-setup.png)
 
 **Figure 5.3** DVWA Database Configuration
 
@@ -1425,7 +1425,7 @@ Configuration included:
 - Connection settings
 - Environment validation
 
-![DVWA Configuration](screenshots/build/dvwa-configuration.png)
+![DVWA Configuration](../screenshots/build/dvwa-configuration.png)
 
 **Figure 5.4** DVWA Configuration File
 
@@ -1444,7 +1444,7 @@ Configuration included:
 - PHP integration
 - Application accessibility
 
-![Apache DVWA Configuration](screenshots/build/apache-dvwa-configuration.png)
+![Apache DVWA Configuration](../screenshots/build/apache-dvwa-configuration.png)
 
 **Figure 5.5** Apache Web Application Configuration
 
@@ -1460,7 +1460,7 @@ OpenSSH Server was enabled during installation.
 
 Verification confirmed that the SSH service started successfully after system boot.
 
-![SSH Service](screenshots/build/ssh-service-running.png)
+![SSH Service](../screenshots/build/ssh-service-running.png)
 
 **Figure 5.6** OpenSSH Service Verification
 
@@ -1896,7 +1896,7 @@ The assessment identified services required for laboratory operation, including:
 
 The objective was to document the available attack surface rather than perform intrusive testing.
 
-![Nmap Scan](screenshots/recon/nmap-scan.png)
+![Nmap Scan](../screenshots/recon/nmap-scan.png)
 
 **Figure 7.1** Service Enumeration Results
 
@@ -1915,7 +1915,7 @@ The assessment focused on:
 - Static resources
 - Default content
 
-![Gobuster Enumeration](screenshots/recon/gobuster-enumeration.png)
+![Gobuster Enumeration](../screenshots/recon/gobuster-enumeration.png)
 
 **Figure 7.2** Directory Enumeration
 
@@ -1929,7 +1929,7 @@ Additional enumeration focused specifically on the deployed DVWA application.
 
 The objective was to identify application modules and publicly accessible functionality.
 
-![DVWA Directories](screenshots/recon/gobuster-dvwa-directories.png)
+![DVWA Directories](../screenshots/recon/gobuster-dvwa-directories.png)
 
 **Figure 7.3** DVWA Directory Structure
 
@@ -1949,7 +1949,7 @@ Areas reviewed included:
 - Available methods
 - Configuration indicators
 
-![Nikto Scan](screenshots/recon/nikto-scan.png)
+![Nikto Scan](../screenshots/recon/nikto-scan.png)
 
 **Figure 7.4** Web Server Assessment
 
@@ -1968,7 +1968,7 @@ Observed network activity included:
 - HTTP responses
 - Connection termination
 
-![TCP SYN Analysis](screenshots/recon/tcp-syn-analysis.png)
+![TCP SYN Analysis](../screenshots/recon/tcp-syn-analysis.png)
 
 **Figure 7.5** TCP Connection Analysis
 
@@ -1987,7 +1987,7 @@ The captured traffic demonstrated:
 - TCP session establishment
 - Protocol behavior
 
-![Reconnaissance Traffic](screenshots/recon/reconnaissance-traffic.png)
+![Reconnaissance Traffic](../screenshots/recon/reconnaissance-traffic.png)
 
 **Figure 7.6** Reconnaissance Traffic
 
@@ -2006,7 +2006,7 @@ The analysis confirmed:
 - Successful responses
 - Normal packet flow
 
-![Ubuntu Network Traffic](screenshots/recon/ubuntu-network-traffic.png)
+![Ubuntu Network Traffic](../screenshots/recon/ubuntu-network-traffic.png)
 
 **Figure 7.7** Ubuntu Server Network Activity
 
@@ -2024,7 +2024,7 @@ The inspection included:
 - Parameters
 - HTTP methods
 
-![Burp Suite](screenshots/recon/burp-suite-intercept.png)
+![Burp Suite](../screenshots/recon/burp-suite-intercept.png)
 
 **Figure 7.8** HTTP Request Inspection
 
@@ -2170,7 +2170,7 @@ The assessment examined:
 - Error handling
 - Session creation
 
-![Hydra Authentication Test](screenshots/attack/hydra-brute-force.png)
+![Hydra Authentication Test](../screenshots/attack/hydra-brute-force.png)
 
 **Figure 8.1** Authentication Assessment
 
@@ -2184,7 +2184,7 @@ The assessment examined how application input is processed before interacting wi
 
 Improper validation may allow unauthorized database interaction.
 
-![SQL Injection](screenshots/attack/sql-injection.png)
+![SQL Injection](../screenshots/attack/sql-injection.png)
 
 **Figure 8.2** SQL Injection Assessment
 
@@ -2207,7 +2207,7 @@ The assessment reviewed both reflected and stored input handling.
 
 ### Reflected XSS
 
-![Reflected XSS](screenshots/attack/reflected-xss.png)
+![Reflected XSS](../screenshots/attack/reflected-xss.png)
 
 **Figure 8.3** Reflected Cross-Site Scripting
 
@@ -2215,7 +2215,7 @@ The assessment reviewed both reflected and stored input handling.
 
 ### Stored XSS
 
-![Stored XSS](screenshots/attack/stored-xss.png)
+![Stored XSS](../screenshots/attack/stored-xss.png)
 
 **Figure 8.4** Stored Cross-Site Scripting
 
@@ -2227,7 +2227,7 @@ Output encoding and input validation remain essential defensive controls.
 
 The application was reviewed to determine whether operating system commands could be influenced by user input.
 
-![Command Injection](screenshots/attack/command-injection.png)
+![Command Injection](../screenshots/attack/command-injection.png)
 
 **Figure 8.5** Command Injection Assessment
 
@@ -2252,17 +2252,17 @@ The assessment examined:
 - Storage location
 - Server-side processing
 
-![Malicious File Upload](screenshots/attack/malicious-file-upload.png)
+![Malicious File Upload](../screenshots/attack/malicious-file-upload.png)
 
 **Figure 8.6** File Upload Assessment
 
 Supporting observations included the generated file and its storage location.
 
-![Created File](screenshots/attack/malicious-file-created.png)
+![Created File](../screenshots/attack/malicious-file-created.png)
 
 **Figure 8.7** Generated Test File
 
-![Uploaded File Location](screenshots/attack/uploaded-file-location.png)
+![Uploaded File Location](../screenshots/attack/uploaded-file-location.png)
 
 **Figure 8.8** Uploaded File Location
 
@@ -2272,7 +2272,7 @@ Supporting observations included the generated file and its storage location.
 
 The application was evaluated to determine whether authenticated actions require sufficient request validation.
 
-![CSRF Assessment](screenshots/attack/csrf-attack.png)
+![CSRF Assessment](../screenshots/attack/csrf-attack.png)
 
 **Figure 8.9** CSRF Assessment
 
@@ -2288,7 +2288,7 @@ Security controls commonly used to reduce this risk include:
 
 The assessment reviewed whether user-controlled input influences server-side file selection.
 
-![Local File Inclusion](screenshots/attack/local-file-inclusion.png)
+![Local File Inclusion](../screenshots/attack/local-file-inclusion.png)
 
 **Figure 8.10** Local File Inclusion Assessment
 
@@ -2306,15 +2306,15 @@ The assessment examined:
 - Identifier uniqueness
 - Session consistency
 
-![Weak Session IDs](screenshots/attack/weak-session-id-analysis.png)
+![Weak Session IDs](../screenshots/attack/weak-session-id-analysis.png)
 
 **Figure 8.11** Session Identifier Analysis
 
-![Predictable Session IDs](screenshots/attack/predictable-session-id.png)
+![Predictable Session IDs](../screenshots/attack/predictable-session-id.png)
 
 **Figure 8.12** Session Predictability
 
-![Session Verification](screenshots/attack/session-id-verification.png)
+![Session Verification](../screenshots/attack/session-id-verification.png)
 
 **Figure 8.13** Session Verification
 
@@ -2471,7 +2471,7 @@ A controlled validation confirmed that an interactive assessment session could b
 
 The objective was to verify the practical impact of previously identified weaknesses while documenting the resulting system behavior.
 
-![Meterpreter Session](screenshots/exploit/meterpreter-session.png)
+![Meterpreter Session](../screenshots/exploit/meterpreter-session.png)
 
 **Figure 9.1** Controlled Validation Session
 
@@ -2517,7 +2517,7 @@ The assessment also documented situations where expected behavior was intentiona
 
 One example involved an unsuccessful operating system shell request.
 
-![OS Shell Attempt](screenshots/exploit/sqlmap-os-shell-failure.png)
+![OS Shell Attempt](../screenshots/exploit/sqlmap-os-shell-failure.png)
 
 **Figure 9.2** Operating System Shell Validation
 
@@ -2708,7 +2708,7 @@ The assessment included:
 - Executable permissions
 - Administrative policies
 
-![Privilege Assessment](screenshots/privilege-escalation/privilege-escalation-checks.png)
+![Privilege Assessment](../screenshots/privilege-escalation/privilege-escalation-checks.png)
 
 **Figure 10.1** Privilege Configuration Assessment
 
@@ -2722,7 +2722,7 @@ A controlled validation was performed to verify administrative access within the
 
 The purpose was to confirm the assessment findings while documenting the resulting system state.
 
-![Root Shell](screenshots/privilege-escalation/root-shell.png)
+![Root Shell](../screenshots/privilege-escalation/root-shell.png)
 
 **Figure 10.2** Administrative Access Verification
 
@@ -2917,7 +2917,7 @@ Areas reviewed included:
 - Password storage mechanisms
 - File permissions
 
-![Shadow Password File](screenshots/post-exploitation/shadow-password-hashes.png)
+![Shadow Password File](../screenshots/post-exploitation/shadow-password-hashes.png)
 
 **Figure 11.1** Protected Authentication Data
 
@@ -2938,7 +2938,7 @@ Observed information included:
 - Service integration
 - Deployment settings
 
-![DVWA Database Credentials](screenshots/post-exploitation/dvwa-database-credentials.png)
+![DVWA Database Credentials](../screenshots/post-exploitation/dvwa-database-credentials.png)
 
 **Figure 11.2** Application Database Configuration
 
@@ -2957,7 +2957,7 @@ Areas reviewed included:
 - Network interfaces
 - Service bindings
 
-![Internal Network Analysis](screenshots/post-exploitation/internal-network-recon.png)
+![Internal Network Analysis](../screenshots/post-exploitation/internal-network-recon.png)
 
 **Figure 11.3** Internal Network Service Review
 
@@ -2988,7 +2988,7 @@ The assessment also examined how defensive visibility may be affected by attempt
 
 A controlled observation documented the system response when historical activity was reviewed.
 
-![Anti-Forensics Observation](screenshots/post-exploitation/anti-forensics-attempt.png)
+![Anti-Forensics Observation](../screenshots/post-exploitation/anti-forensics-attempt.png)
 
 **Figure 11.4** Log Integrity Observation
 
@@ -3188,7 +3188,7 @@ Proper protection of application resources significantly reduces persistence opp
 
 A controlled observation was documented within the educational laboratory to demonstrate how application resources should be reviewed during security assessments.
 
-![Persistence Assessment](screenshots/persistence/web-shell-persistence.png)
+![Persistence Assessment](../screenshots/persistence/web-shell-persistence.png)
 
 **Figure 12.1** Persistence Assessment Observation
 
@@ -3416,7 +3416,7 @@ Before applying new defensive controls, temporary assessment artifacts and unnec
 
 The objective was to restore the environment to a clean operational state before beginning the hardening process.
 
-![Threat Eradication](screenshots/defense/threat-eradication.png)
+![Threat Eradication](../screenshots/defense/threat-eradication.png)
 
 **Figure 13.1** Threat Eradication Review
 
@@ -3437,7 +3437,7 @@ Hardening activities focused on:
 - Permission verification
 - Administrative configuration
 
-![Linux Server Hardening](screenshots/defense/linux-server-hardening.png)
+![Linux Server Hardening](../screenshots/defense/linux-server-hardening.png)
 
 **Figure 13.2** Ubuntu Server Hardening
 
@@ -3457,7 +3457,7 @@ Areas reviewed included:
 - Administrative access
 - Configuration consistency
 
-![Application Hardening](screenshots/defense/dvwa-security-hardening.png)
+![Application Hardening](../screenshots/defense/dvwa-security-hardening.png)
 
 **Figure 13.3** Web Application Review
 
@@ -3478,7 +3478,7 @@ The firewall supports:
 - Administrative control
 - Reduced attack surface
 
-![UFW Firewall Rules](screenshots/defense/ufw-firewall-rules.png)
+![UFW Firewall Rules](../screenshots/defense/ufw-firewall-rules.png)
 
 **Figure 13.4** UFW Firewall Configuration
 
@@ -3499,7 +3499,7 @@ Benefits include:
 - Better visibility.
 - Increased administrative awareness.
 
-![Fail2Ban Protection](screenshots/defense/fail2ban-protection.png)
+![Fail2Ban Protection](../screenshots/defense/fail2ban-protection.png)
 
 **Figure 13.5** Fail2Ban Configuration
 
@@ -3647,7 +3647,7 @@ Traffic observation included:
 
 Continuous monitoring allows administrators to recognize unusual communication patterns.
 
-![Network Monitoring](screenshots/detection-monitoring/network-monitoring.png)
+![Network Monitoring](../screenshots/detection-monitoring/network-monitoring.png)
 
 **Figure 14.1** Network Monitoring
 
@@ -3659,7 +3659,7 @@ Following deployment of the monitoring infrastructure, representative applicatio
 
 The objective was to validate visibility rather than perform additional offensive testing.
 
-![Detection Validation](screenshots/detection-monitoring/dirb-detection-test.png)
+![Detection Validation](../screenshots/detection-monitoring/dirb-detection-test.png)
 
 **Figure 14.2** Monitoring Validation
 
@@ -3889,7 +3889,7 @@ The review confirmed:
 - Log directory accessibility.
 - Service readiness.
 
-![Honeypot Server](screenshots/honeypot/honeypot-server-ip.png)
+![Honeypot Server](../screenshots/honeypot/honeypot-server-ip.png)
 
 **Figure 15.1** Honeypot Server Configuration
 
@@ -3901,7 +3901,7 @@ The assessment platform was configured to communicate with the honeypot through 
 
 Connectivity verification confirmed that communication between the assessment platform and the honeypot functioned correctly.
 
-![Attacker Platform](screenshots/honeypot/attacker-ip.png)
+![Attacker Platform](../screenshots/honeypot/attacker-ip.png)
 
 **Figure 15.2** Assessment Platform Configuration
 
@@ -3918,7 +3918,7 @@ Operational verification confirmed:
 - Log generation.
 - Stable execution.
 
-![Cowrie Startup](screenshots/honeypot/cowrie-service-start.png)
+![Cowrie Startup](../screenshots/honeypot/cowrie-service-start.png)
 
 **Figure 15.3** Cowrie Service Startup
 
@@ -3932,7 +3932,7 @@ Representative SSH interaction was performed to validate that the honeypot succe
 
 The purpose of this activity was to verify logging functionality rather than evaluate authentication mechanisms.
 
-![Connection Observation](screenshots/honeypot/attacker-connected-to-honeypot.png)
+![Connection Observation](../screenshots/honeypot/attacker-connected-to-honeypot.png)
 
 **Figure 15.4** Recorded Honeypot Interaction
 
@@ -3963,7 +3963,7 @@ The collected information was reviewed through the Cowrie logging interface.
 
 The dashboard provides administrators with a consolidated view of observed activity.
 
-![Cowrie Dashboard](screenshots/honeypot/cowrie-honeypot-dashboard.png)
+![Cowrie Dashboard](../screenshots/honeypot/cowrie-honeypot-dashboard.png)
 
 **Figure 15.5** Cowrie Honeypot Dashboard
 
@@ -4156,7 +4156,7 @@ The review confirmed:
 - Unnecessary exposure was minimized.
 - Firewall policies remained active.
 
-![Firewall Verification](screenshots/verification/nmap-security-verification.png)
+![Firewall Verification](../screenshots/verification/nmap-security-verification.png)
 
 **Figure 16.1** Network Security Verification
 
@@ -4175,7 +4175,7 @@ The review focused on:
 - Application behavior.
 - Error responses.
 
-![Application Verification](screenshots/verification/command-injection-blocked.png)
+![Application Verification](../screenshots/verification/command-injection-blocked.png)
 
 **Figure 16.2** Application Protection Verification
 
@@ -4189,7 +4189,7 @@ Application file handling was reviewed following defensive improvements.
 
 Verification confirmed that uploaded content was processed according to the revised security configuration.
 
-![File Upload Protection](screenshots/verification/file-upload-blocked.png)
+![File Upload Protection](../screenshots/verification/file-upload-blocked.png)
 
 **Figure 16.3** File Upload Validation
 
@@ -4207,7 +4207,7 @@ Verification confirmed:
 - Suspicious activity generated defensive responses.
 - Logging continued successfully.
 
-![Fail2Ban Verification](screenshots/verification/fail2ban-blocked-hydra.png)
+![Fail2Ban Verification](../screenshots/verification/fail2ban-blocked-hydra.png)
 
 **Figure 16.4** Authentication Protection Verification
 
@@ -4917,7 +4917,7 @@ Repository contents include:
 - Supporting Documentation
 - Project Assets
 
-![Project Poster](assets/project-poster.png)
+![Project Poster](../assets/project-poster.png)
 
 **Figure 18.1** Zero Trace Imperium Project Poster
 
