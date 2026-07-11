@@ -1,0 +1,20 @@
+#
+# Zero Trace Imperium
+# Cowrie User Database
+#
+
+root:x:root
+
+admin:x:admin
+
+ubuntu:x:ubuntu
+
+user:x:password
+
+guest:x:guest
+
+test:x:test123
+
+developer:x:developer
+
+operator:x:operator
