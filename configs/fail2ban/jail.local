@@ -1,0 +1,102 @@
+#
+# Zero Trace Imperium
+# Fail2Ban Local Jail Configuration
+#
+
+[DEFAULT]
+
+ignoreip = 127.0.0.1/8
+
+bantime = 600
+
+findtime = 600
+
+maxretry = 5
+
+backend = systemd
+
+banaction = iptables-multiport
+
+destemail = root@localhost
+
+sender = fail2ban@localhost
+
+mta = sendmail
+
+action = %(action_)s
+
+######################################################################
+# SSH Protection
+######################################################################
+
+[sshd]
+
+enabled = true
+
+port = ssh
+
+logpath = %(sshd_log)s
+
+backend = systemd
+
+maxretry = 5
+
+bantime = 600
+
+findtime = 600
+
+######################################################################
+# Apache Authentication
+######################################################################
+
+[apache-auth]
+
+enabled = true
+
+port = http,https
+
+logpath = /var/log/apache2/error.log
+
+maxretry = 5
+
+bantime = 600
+
+findtime = 600
+
+######################################################################
+# Apache Bad Bots
+######################################################################
+
+[apache-badbots]
+
+enabled = true
+
+port = http,https
+
+logpath = /var/log/apache2/access.log
+
+maxretry = 2
+
+######################################################################
+# Apache No Script
+######################################################################
+
+[apache-noscript]
+
+enabled = true
+
+port = http,https
+
+logpath = /var/log/apache2/access.log
+
+######################################################################
+# Apache Overflows
+######################################################################
+
+[apache-overflows]
+
+enabled = true
+
+port = http,https
+
+logpath = /var/log/apache2/error.log
