@@ -2,7 +2,7 @@
 
 > Enterprise Attack & Defense Cybersecurity Laboratory
 
-![Zero Trace Banner](assets/images/banner/banner.png)
+![Zero Trace Banner](assets/banner.png)
 
 ---
 
