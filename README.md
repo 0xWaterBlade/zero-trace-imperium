@@ -973,7 +973,7 @@ This project was collaboratively designed, implemented, tested, and documented b
 - [Abdulrahman Husayn](https://github.com/SyinXx)
 - [Hossam Hassan](https://github.com/hossam612)
 - [Seif Elddien Sherif](https://github.com/SEIFELDDIEN)
-- [Muhammad Ayman](https://github.com/AYAD2412)
+- [Mohamed Ayman](https://github.com/AYAD2412)
 
 ---
 
