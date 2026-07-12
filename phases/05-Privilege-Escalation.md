@@ -475,7 +475,7 @@ The assessment was considered successful because:
 
 ## Evidence
 
-![Administrative Privilege Validation](../screenshots/privilege-escalation/01-root.png)
+![Administrative Privilege Validation](../screenshots/privilege-escalation/root-shell.png)
 
 **Figure 1.** Administrative privilege validation successfully confirmed within the isolated Zero Trace Imperium laboratory.
 
