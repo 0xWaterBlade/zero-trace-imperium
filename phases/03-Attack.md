@@ -592,7 +592,7 @@ Successful authentication is verified through:
 
 ---
 
-![DVWA Login](../screenshots/attack/signin-brute-force-success.png)
+![DVWA Login](../screenshots/attack/successful-login.png)
 
 **Figure 2.** Successful access to the authenticated DVWA interface after credential discovery.
 
@@ -893,7 +893,7 @@ Successful validation is confirmed when:
 
 ## Evidence
 
-![SQL Injection](../screenshots/attack/sql-injection-success.png)
+![SQL Injection](../screenshots/attack/sql-injection.png)
 
 **Figure 3.** Successful SQL Injection against the DVWA SQL Injection module.
 
@@ -1195,7 +1195,7 @@ Successful validation is confirmed when:
 
 ## Evidence
 
-![Reflected XSS](../screenshots/attack/xss-reflected-success.png)
+![Reflected XSS](../screenshots/attack/reflected-xss.png)
 
 **Figure 4.** Successful Reflected Cross-Site Scripting validation.
 
@@ -1390,7 +1390,7 @@ Successful validation is confirmed when:
 
 ## Evidence
 
-![Stored XSS](../screenshots/attack/xss-stored-success.png)
+![Stored XSS](../screenshots/attack/stored-xss.png)
 
 **Figure 5.** Successful Stored Cross-Site Scripting validation.
 
@@ -1871,19 +1871,19 @@ Successful validation is confirmed when:
 
 ## Evidence
 
-![File Created](../screenshots/attack/file-creation.png)
+![File Created](../screenshots/attack/malicious-file-created.png)
 
 **Figure 7.** Laboratory file prepared for upload validation.
 
 ---
 
-![Upload Path](../screenshots/attack/uploaded-file-path.png)
+![Upload Path](../screenshots/attack/malicious-file-upload.png)
 
 **Figure 8.** Application response identifying the upload location.
 
 ---
 
-![Upload Success](../screenshots/attack/file-upload-success.png)
+![Upload Success](../screenshots/attack/uploaded-file-location.png)
 
 **Figure 9.** Successful file upload validation within DVWA.
 
@@ -2119,7 +2119,7 @@ Successful validation is confirmed when:
 
 ## Evidence
 
-![CSRF Validation](../screenshots/attack/csrf-success.png)
+![CSRF Validation](../screenshots/attack/csrf-attack.png)
 
 **Figure 10.** Successful validation of the CSRF vulnerability.
 
@@ -2301,7 +2301,7 @@ Successful validation is confirmed when:
 
 ## Evidence
 
-![Local File Inclusion](../screenshots/attack/file-inclusion-success.png)
+![Local File Inclusion](../screenshots/attack/local-file-inclusion.png)
 
 **Figure 11.** Successful validation of the Local File Inclusion vulnerability.
 
@@ -2465,19 +2465,19 @@ The assessment is complete when:
 
 ## Evidence
 
-![Weak Session IDs 1](../screenshots/attack/weak-session-ids-1.png)
+![Weak Session IDs 1](../screenshots/attack/weak-session-id-analysis.png)
 
 **Figure 12.** Initial session identifier observation.
 
 ---
 
-![Weak Session IDs 2](../screenshots/attack/weak-session-ids-2.png)
+![Weak Session IDs 2](../screenshots/attack/predictable-session-id.png)
 
 **Figure 13.** Additional session identifier comparison.
 
 ---
 
-![Weak Session IDs 3](../screenshots/attack/weak-session-ids-3.png)
+![Weak Session IDs 3](../screenshots/attack/session-id-verification.png)
 
 **Figure 14.** Session management assessment completed.
 
