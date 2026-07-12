@@ -385,6 +385,10 @@ Reviewing configuration, execution context, and privilege boundaries provides va
 
 The collected information also establishes a reliable baseline for future security verification.
 
+![Privilege Enumeration](../screenshots/privilege-escalation/privilege-escalation-checks.png)
+
+**Figure 1.** Privilege enumeration assessment using linPEAS within the isolated Zero Trace Imperium laboratory.
+
 ---
 
 ## Blue Team Perspective
@@ -477,7 +481,7 @@ The assessment was considered successful because:
 
 ![Administrative Privilege Validation](../screenshots/privilege-escalation/root-shell.png)
 
-**Figure 1.** Administrative privilege validation successfully confirmed within the isolated Zero Trace Imperium laboratory.
+**Figure 2.** Administrative privilege validation successfully confirmed within the isolated Zero Trace Imperium laboratory.
 
 ---
 
