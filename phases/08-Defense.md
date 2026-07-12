@@ -647,7 +647,7 @@ Only required network services remained available for authorized laboratory acti
 
 ## Evidence
 
-![UFW Firewall Rules](../screenshots/defense/ufw-firewall-rules.png)
+![UFW Firewall Rules](../screenshots/defense/ufw-firewall.png)
 
 **Figure 4.** Host firewall configuration successfully applied to restrict unnecessary network exposure.
 
