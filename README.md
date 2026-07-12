@@ -233,7 +233,6 @@ zero-trace-imperium/
 ├── assets/
 ├── configs/
 ├── docs/
-├── pcaps/
 ├── phases/
 ├── reports/
 ├── screenshots/
