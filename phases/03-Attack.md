@@ -2863,20 +2863,20 @@ zero-trace-imperium/
 │   └── 03-Attack.md
 └── screenshots/
     └── attack/
-        ├── hydra-brute-force-success.png
-        ├── signin-brute-force-success.png
-        ├── sql-injection-success.png
-        ├── xss-reflected-success.png
-        ├── xss-stored-success.png
-        ├── command-injection-success.png
-        ├── file-creation.png
-        ├── uploaded-file-path.png
-        ├── file-upload-success.png
-        ├── csrf-success.png
-        ├── file-inclusion-success.png
-        ├── weak-session-ids-1.png
-        ├── weak-session-ids-2.png
-        └── weak-session-ids-3.png
+        ├── hydra-brute-force.png
+        ├── successful-login.png
+        ├── sql-injection.png
+        ├── reflected-xss.png
+        ├── stored-xss.png
+        ├── command-injection.png
+        ├── malicious-file-creatted.png
+        ├── uploaded-file-location.png
+        ├── malicious-file-upload.png
+        ├── csrf-attack.png
+        ├── local-file-inclusion-success.png
+        ├── weak-session-id-analysis.png
+        ├── predictable-session-id.png
+        └── session-id-verificcation.png
 ```
 
 ---
