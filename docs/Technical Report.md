@@ -1444,7 +1444,7 @@ Configuration included:
 - PHP integration
 - Application accessibility
 
-![Apache DVWA Configuration](../screenshots/build/apache-dvwa-configuration.png)
+![Apache DVWA Configuration](../screenshots/build/apachee-dvwa-configuration.png)
 
 **Figure 5.5** Apache Web Application Configuration
 
@@ -3478,7 +3478,7 @@ The firewall supports:
 - Administrative control
 - Reduced attack surface
 
-![UFW Firewall Rules](../screenshots/defense/ufw-firewall-rules.png)
+![UFW Firewall Rules](../screenshots/defense/ufw-firewall.png)
 
 **Figure 13.4** UFW Firewall Configuration
 
