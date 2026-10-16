@@ -967,7 +967,7 @@ This project was collaboratively designed, implemented, tested, and documented b
 
 ### Team Members
 
-- [Yusuf Husaynn](https://github.com/yusuf-husayn)
+- [Yusuf Husayn](https://github.com/yusuf-husayn)
 - [Ahmad Samy](https://github.com/ahmed-samy-h)
 - [Abdulrahman Husayn](https://github.com/SyinXx)
 - [Hossam Hassan](https://github.com/hossam612)
